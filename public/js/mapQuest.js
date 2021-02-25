@@ -3,7 +3,7 @@ function initMap() {
 	L.mapquest.key = '8HUGliM1yAKjJGR4MbPbfv32u8Mc9X2Y';
 
 	var map = L.mapquest.map('map', {
-		center: [32.878481, - 117.235814],
+		center: [32.88, - 117.236],
 		layers: L.mapquest.tileLayer('map'),
 		zoom: 12,
 		zoomControl: false

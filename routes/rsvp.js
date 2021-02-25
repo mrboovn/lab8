@@ -11,12 +11,9 @@ exports.adminView = function(request, response){
 
 exports.addRSVP = function(request, response) {
   var rsvpEmail = request.body.rsvpEmail;
-    // This will print to your terminal whenever the POST request ia mde
-    console.log(rsvpEmail);
+  console.log(rsvpEmail);
 
-    data.rsvp.push(rsvpEmail); // add to current data
+  data.rsvp.push(rsvpEmail);
 
-    // let us send back some data so that
-    // browser knows it worked!
-    response.send(rsvpEmail);
+  response.send(rsvpEmail);
 };
